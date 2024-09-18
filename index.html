@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./pic_bulboff.gif" alt="">
+    <button onclick="bulbon()">Turn On</button>
+    <button onclick="bulboff()">Turn Off</button>
+</body>
+<script>
+    // fet arrow function
+    bulbon=()=>document.querySelector('img').src='./pic_bulbon.gif';
+    bulboff=()=>document.querySelector('img').src='./pic_bulboff.gif';
+
+    // Normal function
+    // function bulbon(){
+    //     let q=document.querySelector('img');
+    //     q.src='./pic_bulbon.gif'
+    // }
+    // function bulboff(){
+    //     let q=document.querySelector('img');
+    //     q.src='./pic_bulboff.gif'
+    // }
+</script>
+</html>
